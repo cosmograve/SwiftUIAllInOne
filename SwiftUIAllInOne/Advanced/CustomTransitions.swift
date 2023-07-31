@@ -20,18 +20,18 @@ struct RotateViewModifier: ViewModifier {
 extension AnyTransition {
     
     static var rotating: AnyTransition {
-        return AnyTransition.modifier(active: RotateViewModifier(rotation: 180),
-                                      identity: RotateViewModifier(rotation: 0))
+        .modifier(active: RotateViewModifier(rotation: 180),
+                  identity: RotateViewModifier(rotation: 0))
     }
     
     static var rotateOn: AnyTransition {
-        return AnyTransition.asymmetric(insertion: .rotating,
-                                        removal: .move(edge: .trailing))
+        .asymmetric(insertion: .rotating,
+                    removal: .move(edge: .trailing))
     }
     
     static func rotating(amount: Double) -> AnyTransition {
-        return AnyTransition.modifier(active: RotateViewModifier(rotation: amount),
-                                      identity: RotateViewModifier(rotation: 0))
+        .modifier(active: RotateViewModifier(rotation: amount),
+                  identity: RotateViewModifier(rotation: 0))
     }
     
 }
@@ -58,7 +58,7 @@ struct CustomTransitions: View {
                 .padding(.horizontal, 40)
                 .onTapGesture {
                     //                    withAnimation(.easeInOut(duration: 1)) { //speed
-                    withAnimation(.easeInOut) {  
+                    withAnimation(.easeInOut) {
                         showRectangle.toggle()
                     }
                 }
