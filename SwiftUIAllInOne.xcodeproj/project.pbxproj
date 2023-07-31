@@ -13,6 +13,7 @@
 		3AE647312A70FC00001B4100 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647302A70FC00001B4100 /* TextBootcamp.swift */; };
 		3AE647332A71019E001B4100 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647322A71019E001B4100 /* ViewModifier.swift */; };
 		3AE647352A710C5C001B4100 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647342A710C5C001B4100 /* ButtonStyles.swift */; };
+		3AE647392A711737001B4100 /* CustomTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647382A711737001B4100 /* CustomTransitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3AE647302A70FC00001B4100 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		3AE647322A71019E001B4100 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 		3AE647342A710C5C001B4100 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		3AE647382A711737001B4100 /* CustomTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				3AE647222A70FB43001B4100 /* SwiftUIAllInOneApp.swift */,
+				3AE647372A711490001B4100 /* Advanced */,
 				3AE647362A711472001B4100 /* Base */,
 				3AE647262A70FB44001B4100 /* Assets.xcassets */,
 				3AE647282A70FB44001B4100 /* Preview Content */,
-				3AE647372A711490001B4100 /* Advanced */,
 			);
 			path = SwiftUIAllInOne;
 			sourceTree = "<group>";
@@ -85,6 +87,7 @@
 			children = (
 				3AE647322A71019E001B4100 /* ViewModifier.swift */,
 				3AE647342A710C5C001B4100 /* ButtonStyles.swift */,
+				3AE647382A711737001B4100 /* CustomTransitions.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				3AE647352A710C5C001B4100 /* ButtonStyles.swift in Sources */,
 				3AE647232A70FB43001B4100 /* SwiftUIAllInOneApp.swift in Sources */,
 				3AE647332A71019E001B4100 /* ViewModifier.swift in Sources */,
+				3AE647392A711737001B4100 /* CustomTransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

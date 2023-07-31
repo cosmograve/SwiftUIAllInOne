@@ -18,7 +18,7 @@ struct DefaultButtonModifier: ViewModifier {
             .background(bgColor)
             .cornerRadius(10)
             .shadow(radius: 10)
-            .padding()
+            
     }
 }
 
@@ -30,7 +30,7 @@ extension View {
 
 struct ViewModifierExample: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                 .withDefaultButtonFormatting()
@@ -41,6 +41,7 @@ struct ViewModifierExample: View {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                 .withDefaultButtonFormatting(bgColor: .mint)
         }
+        .padding()
         
     }
 }
