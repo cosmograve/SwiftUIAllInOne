@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A9CF7A82A84EB160067CD20 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CF7A72A84EB160067CD20 /* CustomShapes.swift */; };
 		3AA181202A77E65800865EEB /* MatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1811F2A77E65800865EEB /* MatchedGeometry.swift */; };
 		3AE647232A70FB43001B4100 /* SwiftUIAllInOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647222A70FB43001B4100 /* SwiftUIAllInOneApp.swift */; };
 		3AE647272A70FB44001B4100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE647262A70FB44001B4100 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A9CF7A72A84EB160067CD20 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 		3AA1811F2A77E65800865EEB /* MatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometry.swift; sourceTree = "<group>"; };
 		3AE6471F2A70FB43001B4100 /* SwiftUIAllInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAllInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE647222A70FB43001B4100 /* SwiftUIAllInOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAllInOneApp.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				3AE647342A710C5C001B4100 /* ButtonStyles.swift */,
 				3AE647382A711737001B4100 /* CustomTransitions.swift */,
 				3AA1811F2A77E65800865EEB /* MatchedGeometry.swift */,
+				3A9CF7A72A84EB160067CD20 /* CustomShapes.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				3AA181202A77E65800865EEB /* MatchedGeometry.swift in Sources */,
 				3AE647232A70FB43001B4100 /* SwiftUIAllInOneApp.swift in Sources */,
 				3AE647332A71019E001B4100 /* ViewModifier.swift in Sources */,
+				3A9CF7A82A84EB160067CD20 /* CustomShapes.swift in Sources */,
 				3AE647392A711737001B4100 /* CustomTransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

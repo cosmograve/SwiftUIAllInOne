@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIAllInOneApp: App {
     var body: some Scene {
         WindowGroup {
-            MatchedGeometry2()
+            CustomShapes()
         }
     }
 }
