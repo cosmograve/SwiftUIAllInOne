@@ -16,6 +16,17 @@
 		3AE647332A71019E001B4100 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647322A71019E001B4100 /* ViewModifier.swift */; };
 		3AE647352A710C5C001B4100 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647342A710C5C001B4100 /* ButtonStyles.swift */; };
 		3AE647392A711737001B4100 /* CustomTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE647382A711737001B4100 /* CustomTransitions.swift */; };
+		B018C70D2BA80B1A008924A1 /* Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018C70C2BA80B1A008924A1 /* Toggles.swift */; };
+		B018C70F2BA81024008924A1 /* AlertAndActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018C70E2BA81024008924A1 /* AlertAndActionSheet.swift */; };
+		B018C7262BA896FC008924A1 /* FirstPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018C7252BA896FC008924A1 /* FirstPipeline.swift */; };
+		B018C7282BA8B74D008924A1 /* 2 FirstCancellablePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018C7272BA8B74D008924A1 /* 2 FirstCancellablePipeline.swift */; };
+		B05CB65A2BF4B5D600FC5D20 /* DropDownBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CB6572BF4B5D600FC5D20 /* DropDownBox.swift */; };
+		B05CB65B2BF4B5D600FC5D20 /* DropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CB6582BF4B5D600FC5D20 /* DropDownItem.swift */; };
+		B05CB65C2BF4B5D600FC5D20 /* DDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CB6592BF4B5D600FC5D20 /* DDView.swift */; };
+		B07EFA4A2BAAE0AD000ADB71 /* 3 CancellingMultiplePipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07EFA492BAAE0AD000ADB71 /* 3 CancellingMultiplePipelines.swift */; };
+		B07EFA4F2BAAEB69000ADB71 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07EFA4E2BAAEB69000ADB71 /* ViewExtensions.swift */; };
+		B07EFA512BAAEC70000ADB71 /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07EFA502BAAEC70000ADB71 /* CustomViewModifier.swift */; };
+		B07EFA532BAAEC8A000ADB71 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07EFA522BAAEC8A000ADB71 /* RoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,17 @@
 		3AE647322A71019E001B4100 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 		3AE647342A710C5C001B4100 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		3AE647382A711737001B4100 /* CustomTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitions.swift; sourceTree = "<group>"; };
+		B018C70C2BA80B1A008924A1 /* Toggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggles.swift; sourceTree = "<group>"; };
+		B018C70E2BA81024008924A1 /* AlertAndActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndActionSheet.swift; sourceTree = "<group>"; };
+		B018C7252BA896FC008924A1 /* FirstPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipeline.swift; sourceTree = "<group>"; };
+		B018C7272BA8B74D008924A1 /* 2 FirstCancellablePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 FirstCancellablePipeline.swift"; sourceTree = "<group>"; };
+		B05CB6572BF4B5D600FC5D20 /* DropDownBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownBox.swift; sourceTree = "<group>"; };
+		B05CB6582BF4B5D600FC5D20 /* DropDownItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownItem.swift; sourceTree = "<group>"; };
+		B05CB6592BF4B5D600FC5D20 /* DDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDView.swift; sourceTree = "<group>"; };
+		B07EFA492BAAE0AD000ADB71 /* 3 CancellingMultiplePipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3 CancellingMultiplePipelines.swift"; sourceTree = "<group>"; };
+		B07EFA4E2BAAEB69000ADB71 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		B07EFA502BAAEC70000ADB71 /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
+		B07EFA522BAAEC8A000ADB71 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				3AE647222A70FB43001B4100 /* SwiftUIAllInOneApp.swift */,
+				B05CB6562BF4B52800FC5D20 /* DropDownBox */,
+				B07EFA4D2BAAEB46000ADB71 /* Extensions */,
+				B018C7232BA896C0008924A1 /* Combine */,
 				3AE647372A711490001B4100 /* Advanced */,
 				3AE647362A711472001B4100 /* Base */,
 				3AE647262A70FB44001B4100 /* Assets.xcassets */,
@@ -82,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				3AE647302A70FC00001B4100 /* TextBootcamp.swift */,
+				B018C70C2BA80B1A008924A1 /* Toggles.swift */,
+				B018C70E2BA81024008924A1 /* AlertAndActionSheet.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -96,6 +123,44 @@
 				3A9CF7A72A84EB160067CD20 /* CustomShapes.swift */,
 			);
 			path = Advanced;
+			sourceTree = "<group>";
+		};
+		B018C7232BA896C0008924A1 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B018C7242BA896CB008924A1 /* 1 First Pipleline */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		B018C7242BA896CB008924A1 /* 1 First Pipleline */ = {
+			isa = PBXGroup;
+			children = (
+				B018C7252BA896FC008924A1 /* FirstPipeline.swift */,
+				B018C7272BA8B74D008924A1 /* 2 FirstCancellablePipeline.swift */,
+				B07EFA492BAAE0AD000ADB71 /* 3 CancellingMultiplePipelines.swift */,
+			);
+			path = "1 First Pipleline";
+			sourceTree = "<group>";
+		};
+		B05CB6562BF4B52800FC5D20 /* DropDownBox */ = {
+			isa = PBXGroup;
+			children = (
+				B05CB6592BF4B5D600FC5D20 /* DDView.swift */,
+				B05CB6572BF4B5D600FC5D20 /* DropDownBox.swift */,
+				B05CB6582BF4B5D600FC5D20 /* DropDownItem.swift */,
+			);
+			path = DropDownBox;
+			sourceTree = "<group>";
+		};
+		B07EFA4D2BAAEB46000ADB71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B07EFA4E2BAAEB69000ADB71 /* ViewExtensions.swift */,
+				B07EFA502BAAEC70000ADB71 /* CustomViewModifier.swift */,
+				B07EFA522BAAEC8A000ADB71 /* RoundedCorner.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,12 +233,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05CB65B2BF4B5D600FC5D20 /* DropDownItem.swift in Sources */,
 				3AE647312A70FC00001B4100 /* TextBootcamp.swift in Sources */,
+				B018C70F2BA81024008924A1 /* AlertAndActionSheet.swift in Sources */,
+				B05CB65A2BF4B5D600FC5D20 /* DropDownBox.swift in Sources */,
+				B07EFA4A2BAAE0AD000ADB71 /* 3 CancellingMultiplePipelines.swift in Sources */,
 				3AE647352A710C5C001B4100 /* ButtonStyles.swift in Sources */,
 				3AA181202A77E65800865EEB /* MatchedGeometry.swift in Sources */,
 				3AE647232A70FB43001B4100 /* SwiftUIAllInOneApp.swift in Sources */,
 				3AE647332A71019E001B4100 /* ViewModifier.swift in Sources */,
+				B07EFA4F2BAAEB69000ADB71 /* ViewExtensions.swift in Sources */,
+				B07EFA512BAAEC70000ADB71 /* CustomViewModifier.swift in Sources */,
+				B018C7282BA8B74D008924A1 /* 2 FirstCancellablePipeline.swift in Sources */,
+				B05CB65C2BF4B5D600FC5D20 /* DDView.swift in Sources */,
+				B018C7262BA896FC008924A1 /* FirstPipeline.swift in Sources */,
 				3A9CF7A82A84EB160067CD20 /* CustomShapes.swift in Sources */,
+				B07EFA532BAAEC8A000ADB71 /* RoundedCorner.swift in Sources */,
+				B018C70D2BA80B1A008924A1 /* Toggles.swift in Sources */,
 				3AE647392A711737001B4100 /* CustomTransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
